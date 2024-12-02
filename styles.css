@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f8fc; /* Azul suave */
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #2196f3; /* Azul mais forte */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Dourado suave para interatividade */
+}
+
+main {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.map-node {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.map-node:hover {
+    transform: translateY(-5px); /* Leve animação para destacar ao passar o mouse */
+}
+
+h2 {
+    font-size: 28px;
+    color: #2196f3;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+p, ul {
+    font-size: 18px;
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 12px;
+}
+
+ul li strong {
+    color: #2196f3; /* Azul destacado nas palavras-chave */
+}
+
+footer {
+    background-color: #2196f3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
